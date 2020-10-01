@@ -30,7 +30,7 @@ Contribuições:
 1. Classe PagamentoCedula
 1. Edições ao README
 
-_OBS: Houve um problema em um dos testes realizados para testar o build do projeto e para corrigir isto foi necessário forçar um push que conflitava com todos os outros commits que já havia sido feito e nisso ocorreu automaticamente que causou a exclusão dos commits feitos anteriormente._
+_OBS: Houve um problema em um dos testes realizados para testar o build do projeto e para corrigir isto foi necessário forçar um push que conflitava com todos os outros commits e nisso ocorreu automaticamente que causou a exclusão dos commits feitos anteriormente._
 
 ## Docs
 
