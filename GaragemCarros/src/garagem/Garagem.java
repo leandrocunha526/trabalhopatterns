@@ -8,10 +8,10 @@ public class Garagem {
     
     Pessoa p = new Pessoa();
     Pagamento pg = new PagamentoCedula();
-    p.EstadoVazio();
+    p.estadoVazio();
     pg.info();
     EntradaESaida es = new EntradaESaida();
-    es.AdicionarObservador(new Notifica());
+    es.adicionarObservador(new Notifica());
     es.setVaga(1);
     
     }

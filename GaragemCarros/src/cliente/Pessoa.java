@@ -11,18 +11,18 @@ public class Pessoa {
         this.estado = estado;
     }
     
-    public void EstadoFechado(){
+    public void estadoFechado(){
         estado.fechado();
     }
   
-    public void EstadoLotado(){
+    public void estadoLotado(){
         estado.lotado();
     }
     
-    public void EstadoVazio(){
+    public void estadoVazio(){
         estado.vazio();
     }
-    public void EstadoDias(){
+    public void estadoDias(){
         estado.dias();
     }
 }

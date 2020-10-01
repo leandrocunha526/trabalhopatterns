@@ -21,7 +21,7 @@ public class EntradaESaida{
       notifica();
     }
     
-    public void AdicionarObservador(Observador observadores){
+    public void adicionarObservador(Observador observadores){
     
         this.observador.add(observadores);
     }
