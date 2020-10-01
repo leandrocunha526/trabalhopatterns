@@ -8,12 +8,13 @@ Sistema para o gerenciamento de vagas e clientes no aluguel de uma garagem de ve
    
 - Template: Usado para definir duas informações relevantes para o aluguel da garagem que é o tempo e o valor que são úteis quando o cliente realiza o pagamento na sua saída, pois o tempo é levado em consideração e com base no tempo será definido um valor. 
 
-- Observer: Tinha o problema que era para notificar o uso de uma vaga, e foi feito utilizando este pattern com base na doc quando o sistema notifica que uma vaga está sendo utilizada e a saída do veículo da vaga, quando é definido ele notifica informando e esta é a forma que foi contabilizada o uso de uma vaga.
+- Observer: Tinha o problema que era para notificar o uso de uma vaga e foi feito utilizando este pattern com base na doc quando o sistema notifica que uma vaga está sendo utilizada e a saída do veículo da vaga, quando é definido ele notifica informando e esta é a forma que é contabilizada o uso de uma vaga.
 
 ## Usuários no Github
 
 - gabrielgtba2009@hotmail.com = Gabriel Marra de Barros @gmmarra33  
 Contribuições:
+
 1. Classe EntradaESaida
 1. Classe Observador
 1. Classe Notifica
@@ -21,12 +22,15 @@ Contribuições:
 
 - leandrocunha526@gmail.com = Leandro Cunha @leandrocunha526  
 Contribuições:
+
 1. Classe Cliente
 1. Classe GaragemCarroEstado
 1. Classe Pessoa
 1. Classe Pagamento
 1. Classe PagamentoCedula
 1. Edições ao README
+
+_OBS: Houve um problema em um dos testes realizados para testar o build do projeto e para corrigir isto foi necessário forçar um push que conflitava com todos os outros commits que já havia sido feito e nisso ocorreu automaticamente que causou a exclusão dos commits feitos anteriormente._
 
 ## Docs
 
