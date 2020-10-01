@@ -16,7 +16,8 @@ public abstract class Pagamento {
     public void valor(){
     
     System.out.println("Calculo do valor de aluguel da garagem");
+   
+    }
     
     protected abstract void pagamento();
-    }
 }
