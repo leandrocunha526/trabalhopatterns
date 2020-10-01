@@ -4,7 +4,7 @@ Sistema para o gerenciamento de vagas e clientes no aluguel de uma garagem de ve
 
 ## Patterns usados no projeto
 
-- State: Este pattern foi utilizado para definir os estados para a garagem como lotada, vazia, fechada e para caso o cliente tenha dias específicos foi usado para definir cada estado que e para retornar uma mensagem com a informação sobre o estado. Para este projeto não foi definido que haveria mais de um tipo de cliente, portando possuem casos que o mesmo possa ter dias específicos reservados e o sistema retornará uma mensagem informando.
+- State: Este pattern foi utilizado para definir os estados para a garagem como lotada, vazia, fechada e para caso o cliente tenha dias específicos foi usado para definir cada estado e para retornar uma mensagem com a informação sobre este estado. Para este projeto não foi definido que haveria mais de um tipo de cliente, portando possuem casos que o mesmo possa ter dias específicos reservados e o sistema retornará uma mensagem informando.
    
 - Template: Usado para definir duas informações relevantes para o aluguel da garagem que é o tempo e o valor que são úteis quando o cliente realiza o pagamento na sua saída, pois o tempo é levado em consideração e com base no tempo será definido um valor. 
 
