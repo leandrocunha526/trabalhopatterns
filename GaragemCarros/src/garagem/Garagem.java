@@ -12,7 +12,7 @@ public class Garagem {
     pg.info();
     EntradaESaida es = new EntradaESaida();
     es.AdicionarObservador(new Notifica());
-    es.setVagas(1);
+    es.setVaga(1);
     
     }
 }

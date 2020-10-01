@@ -14,7 +14,7 @@ public class EntradaESaida{
       }
     }
       
-    public void setVagas(int veiculo){
+    public void setVaga(int veiculo){
     
       this.veiculo = veiculo;
       
