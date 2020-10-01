@@ -12,7 +12,20 @@ Sistema para o gerenciamento de vagas e clientes no aluguel de uma garagem de ve
 
 ## Usuários no Github
 - gabrielgtba2009@hotmail.com = Gabriel Marra de Barros @gmmarra33
+Contribuições:
+1. Classe EntradaESaida
+1. Classe Observador
+1. Classe Notifica
+1. Edições ao README
+
 - leandrocunha526@gmail.com = Leandro Cunha @leandrocunha526
+Contribuições:
+1. Classe Cliente
+1. Classe GaragemCarroEstado
+1. Classe Pessoa
+1. Classe Pagamento
+1. Classe PagamentoCedula
+1. Edições ao README
 
 ## Linguagens utilizadas :books:
 
