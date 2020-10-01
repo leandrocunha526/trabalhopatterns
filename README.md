@@ -8,7 +8,7 @@ Sistema para o gerenciamento de vagas e clientes no aluguel de uma garagem de ve
    
 - Template: Usado para definir duas informações relevantes para o aluguel da garagem que é o tempo e o valor que são úteis quando o cliente realiza o pagamento na sua saída, pois o tempo é levado em consideração e com base no tempo será definido um valor. 
 
-- Observer: Eu tinha o problema que era para notificar o uso de uma vaga, e fiz utilizando este pattern com base na doc quando o sistema notifica que uma vaga está sendo utilizada e a saída do veículo da vaga, quando é definido ele notifica informando e esta é forma que foi contabilizada o uso de uma vaga.
+- Observer: Tinha o problema que era para notificar o uso de uma vaga, e fiz utilizando este pattern com base na doc quando o sistema notifica que uma vaga está sendo utilizada e a saída do veículo da vaga, quando é definido ele notifica informando e esta é forma que foi contabilizada o uso de uma vaga.
 
 ## Usuários no Github
 
