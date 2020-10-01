@@ -4,15 +4,18 @@ Sistema para o gerenciamento de vagas e clientes no aluguel de uma garagem de ve
 
 ## Patterns usados no projeto
 
-- State: Este pattern foi utilizado para definir os estados para a garagem como lotada, vazia, fechada e para caso o cliente tenha dias específicos foi usado para definir cada estado e para retornar uma mensagem com a informação sobre este estado. Para este projeto não foi definido que haveria mais de um tipo de cliente, portando possuem casos que o mesmo possa ter dias específicos reservados e o sistema retornará uma mensagem informando.
+- State: Padrão comportamental que permite que o objeto altere o seu comportamento quando o estado interno muda. Este pattern foi utilizado para definir os estados para a garagem como lotada, vazia, fechada e para caso o cliente tenha dias específicos foi usado para definir cada estado e para retornar uma mensagem com a informação sobre este estado. Para este projeto não foi definido que haveria mais de um tipo de cliente, portando possuem casos que o mesmo possa ter dias específicos reservados e o sistema retornará uma mensagem informando.
    
-- Template: Usado para definir duas informações relevantes para o aluguel da garagem que é o tempo e o valor que são úteis quando o cliente realiza o pagamento na sua saída, pois o tempo é levado em consideração e com base no tempo será definido um valor. 
+- Template: Usado para definir o esqueleto para duas informações relevantes para o pagamento do aluguel da garagem que é o tempo e o valor que são úteis quando o cliente realiza o pagamento na sua saída, pois o tempo é levado em consideração e com base no tempo será definido um valor para pagamento. 
 
-- Observer: Tinha o problema que era para notificar o uso de uma vaga e foi feito utilizando este pattern com base na doc quando o sistema notifica que uma vaga está sendo utilizada e a saída do veículo da vaga, quando é definido ele notifica informando e esta é a forma que é contabilizada o uso de uma vaga.
+- Observer: Usado para definir mecanismo de assinatura para notificar vários objetos sobre quaisquer dos eventos que ocorra. Tinha o problema que era para notificar o uso de uma vaga e foi feito utilizando este pattern com base na doc quando o sistema notifica que uma vaga está sendo utilizada e a saída do veículo da vaga, quando é definido ele notifica informando e esta é a forma que é contabilizada o uso de uma vaga.
 
 ## Usuários no Github
 
-- gabrielgtba2009@hotmail.com = Gabriel Marra de Barros @gmmarra33  
+- E-mail: gabrielgtba2009@hotmail.com  
+  Nome: Gabriel Marra de Barros   
+  Usuário: @gmmarra33  
+
 Contribuições:
 
 1. Classe EntradaESaida
@@ -20,7 +23,10 @@ Contribuições:
 1. Classe Notifica
 1. Edições ao README
 
-- leandrocunha526@gmail.com = Leandro Cunha @leandrocunha526  
+- E-mail: leandrocunha526@gmail.com   
+  Nome: Leandro Cunha   
+  Usuário: @leandrocunha526
+
 Contribuições:
 
 1. Classe Cliente
@@ -30,7 +36,7 @@ Contribuições:
 1. Classe PagamentoCedula
 1. Edições ao README
 
-_OBS: Houve um problema em um dos testes realizados para testar o build do projeto e para corrigir isto foi necessário forçar um push que conflitava com todos os outros commits e nisso ocorreu automaticamente que causou a exclusão dos commits feitos anteriormente._
+_OBS: Houve um problema em um dos testes realizados para testar o build sob os commits feitos e para corrigir isto foi necessário forçar um push que conflitava com todos os outros commits e nisso ocorreu automaticamente que causou a exclusão dos commits feitos anteriormente._
 
 ## Docs
 
