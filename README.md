@@ -36,7 +36,7 @@ Contribuições:
 1. Classe PagamentoCedula
 1. Edições ao README
 
-_OBS: Houve um problema em um dos testes realizados para testar o build sob os commits feitos e para corrigir isto foi necessário forçar um push que conflitava com todos os outros commits após o teste e ocorreu automaticamente que causou a exclusão dos commits feitos anteriormente. O projeto foi testado com Netbeans 12.1._
+_OBS: Houve um problema em um dos testes realizados para testar o build sob os commits feitos e para corrigir isto foi necessário forçar um push que conflitava com todos os outros commits após o teste e ocorreu automaticamente que causou a exclusão dos commits feitos anteriormente. O projeto foi testado com Netbeans 12.1. Com objetivo de assegurar caso clone o projeto ele funcionará corretamente, no presente momento os testes foram executados com sucesso e o projeto está funcionando corretamente nesta versão da IDE._
 
 ## Docs
 
