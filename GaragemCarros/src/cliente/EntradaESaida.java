@@ -4,7 +4,7 @@ public class EntradaESaida{
     
    private int veiculo;
  
-   private List<Observador> observador = new ArrayList();
+   private List<Observador> observador = new ArrayList<>();
    
     private void notifica(){
    
