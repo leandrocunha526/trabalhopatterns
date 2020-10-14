@@ -42,3 +42,4 @@ _OBS: Houve um problema em um dos testes realizados para testar o build sob os c
 
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Refactory Guru](https://refactoring.guru/pt-br/design-patterns)
+- [Presentation](https://docs.google.com/document/d/1Z6g3xr79XRCYGBhgmJtVsDSGgJcg5vqU30RMt941bcU/edit?usp=sharing)
